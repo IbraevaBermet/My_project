@@ -39,6 +39,11 @@ a{
 
 }
 
+.b-r1 li {
+    border-right: 1px solid #dadada;
+
+}
+
 .b-r li:last-child {
     border-right: 0;
 }
