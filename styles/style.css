@@ -17,6 +17,13 @@ a{
 .left {
     float: left;
 }
+.bold {
+    font-weight: bold;
+}
+
+.green{
+    color:#0ab313;
+}
 
 .ul_li, li {
     list-style: none;
@@ -67,11 +74,21 @@ a{
     color:aliceblue;
 }
 
+
+
+/* Центральное меню */
+.center_menu .ul_li {
+    width: 100%;
+}
+
+
+/* Поисковик */
 .search_form {
     display:inline-flex;
     padding: 0px 20px;
     margin-right: 50px;
-    margin-top: 10px;
+    margin-top: 46px;
+    margin-left: 98px;
     justify-content: space-between;
     align-items:center;
     height: 40px;
@@ -80,13 +97,10 @@ a{
     background-color: white;
 }
 
-/* Центральное меню */
 
-
-
-/* Поисковик */
 .search_form {
     border: 1px solid rgb(231, 133, 22);
+    align-items:center;
 }
 .search_form_txt{
     border: none;
@@ -116,4 +130,34 @@ a{
     background-color: white;
     cursor: pointer;
     color:#676594;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.info {
+    margin: 47px 20px 0 0;
+}
+
+.info i {
+    padding: 1px 15px;
+    font-size: xx-large;
+    color:#737573;
+}
+
+.icon_msg {
+    position: relative;
+}
+
+.msg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 39px;
+    top: -23px;
+    background: red;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
 }
