@@ -10,6 +10,8 @@ body, p {
     margin: 0;
 }
 
+
+
 a{
     text-decoration: none;
     cursor:pointer;
@@ -55,6 +57,17 @@ a{
     display: block;
     
 }
+
+.verhnee_menu li:hover  i {
+    transform: rotate(-0.5turn);
+    transition: 0.2s;
+}
+
+.verhnee_menu li:hover  i:first-child{
+    transform: none;
+}
+
+
 
 
 .verh_dropdown {
@@ -204,6 +217,7 @@ a{
 .list {
     text-align: center;
     position: relative;
+   
 
 }
 
@@ -213,6 +227,7 @@ a{
     height: 48px;
     align-items: 1.5px;
     padding: 10px 70px;
+    
 }
 .list a{
     color:aliceblue;
@@ -232,13 +247,26 @@ a{
     /* border: 1px solid rgb(124, 124, 124); */
     box-shadow:  0 0 10px #4c4b6c;
     z-index: 2;
-
+   
+  
+   
 }
 
 .hover_menu li:hover .dropdown_menu {
     display: block;
+  
     
 }
+
+.hover_menu li:hover i {
+    transform: rotate(-0.5turn);
+    transition: 0.2s;
+}
+
+
+
+
+
 
 .dropdown_menu li{
     border:none;
@@ -251,6 +279,8 @@ a{
     text-align: left;
     margin-top: 10px;
     font-size: 17px;
+   
+    
 }
 
 .dropdown_menu a{
@@ -469,17 +499,17 @@ a{
 }
 
 .kartochka li:hover {
-    box-shadow:  0 0 10px #2abf01;
-    border:0.5px solid #2abf01;
+    box-shadow:  0 0 10px rgb(113, 190, 0);
+    border:0.5px solid rgb(113, 190, 0);
 }
 
 .kartochka li:hover .box_in {
-    background:#2abf01;
+    background: rgb(113, 190, 0);
 
 }
 
 .kartochka li:hover .title_main {
-    color:#2abf01;
+    color:rgb(113, 190, 0);
 }
 
 .kartochka li:hover .quick {
@@ -489,16 +519,51 @@ a{
 }
 
 .minus:hover {
-    background:#2abf01;
+    background:rgb(113, 190, 0);
     color: aliceblue;
     border-radius: 5px
 }
 
 .plus:hover {
-    background:#2abf01;
+    background:rgb(113, 190, 0);
     color: aliceblue;
     border-radius: 5px;
 }
+
+.sale {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    background: orange;
+    text-align: center;
+    align-items:center;
+    color:#ffffff;
+    font-weight: 500;
+}
+
+.kartochka .sale {
+    font-size: 12px;
+
+}
+
+.sale2 {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    background: rgb(113, 190, 0);
+    text-align: center;
+    align-items:center;
+    color:#ffffff;
+    font-weight: 500;
+}
+
+.kartochka .sale2 {
+    font-size: 12px;
+
+}
+   
+
+
 
 .quick {
     display: none;
@@ -517,7 +582,7 @@ a{
 }
 
 .view:hover {
-    color:#2abf01;
+    color:rgb(113, 190, 0);
 }
 
 .view i{
@@ -539,4 +604,25 @@ a{
 
 .view i:hover .bookmark {
     display: block;
+}
+
+.btn_more {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.btn_more button{
+    width: 200px;
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border:0.1px solid grey;
+    font-size: 15px;
+}
+
+.btn_more button:hover {
+    background: rgb(113, 190, 0);
+    color: #ffffff;
+    border: none;
 }
