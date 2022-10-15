@@ -314,7 +314,10 @@ a{
     width: 342px;
     height: 125px;
 } */
-
+.benefits li {
+    border-left: 5px solid #ffffff;
+    height: 120px;
+}
 
 .benefits li:hover {
     box-shadow:  0 0 10px #4c4b6c;
@@ -324,12 +327,12 @@ a{
 
 .benefits i{
     font-size: 40px;
-    margin: 35px 17px 0 23px;
+    margin: 35px 25px 0 26px;
     color:#2abf01;
 }
 
 .benefits span{
-    margin: 35px 36px 35px 15px;
+    margin: 35px 33px 35px 2px;
     /* padding: 20px 20px; */
 }
 
@@ -575,10 +578,14 @@ a{
     
 }
 
+.quick a {
+    color:#b9b9b8;
+}
 
 
 .quick i {
     margin-top: 15px;
+    
 }
 
 .view:hover {
@@ -625,4 +632,72 @@ a{
     background: rgb(113, 190, 0);
     color: #ffffff;
     border: none;
+}
+
+
+.about {
+    margin-top: 50px;
+}
+
+.about h1 {
+    font-size: 25px;
+    color:#272727;
+}
+.about p {
+    margin-bottom: 20px;
+} 
+
+/* Позвонить */
+
+.call {
+    width: 100%;
+    height: 120px;
+    background:rgb(29, 155, 4);
+    position: relative;
+}
+
+.call button {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    height: 35px;
+    width: 150px;
+    background:#5a5a5a;
+    border:none;
+    color:#e3dada;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.call h2 {
+    padding: 20px 0 0 15px;
+    color:#e3dada;
+}
+
+.call i {
+    position: absolute;
+    font-size: 50px;
+    top: 33px;
+    right: 49px;
+    color: #e3dada;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background:#4b4b4b;
+    margin-top: 40px;
+    color:#dadada;
+}
+
+footer li {
+    margin-left: 20px;
+   
+}
+
+footer a {
+    margin-bottom: 20px;
+    font-size: 15px;
 }
