@@ -686,18 +686,41 @@ a{
 
 footer {
     width: 100%;
-    height: 200px;
+    height: 350px;
     background:#4b4b4b;
-    margin-top: 40px;
+    margin-top: 60px;
     color:#dadada;
-}
-
-footer li {
-    margin-left: 20px;
-   
 }
 
 footer a {
     margin-bottom: 20px;
     font-size: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.informations{
+    display: flex;
+    justify-content:space-between;
+    margin: 40px 40px;
+    line-height: 30px;
+}
+
+.informations .left {
+    margin: 35px 20px 40px 20px;
+}
+
+footer .right {
+    padding-bottom: 20px;
+}
+
+footer i {
+    font-size: 25px;
+    color: #dadada;
+}
+
+.seti {
+    margin-top: 30px;
 }
