@@ -1,0 +1,64 @@
+main h1 {
+    font-size: 25px;
+    color: #37364e;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card_div {
+    box-shadow:  0 0 10px #68677e;
+}
+
+.image_add_card img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.name {
+    width: 400px;
+}
+
+.model {
+    width: 120px;
+}
+
+.add_and_delete {
+    width: 120px;
+    /* font-size: xx-large; */
+    align-items:center;
+}
+
+.add_and_delete i{
+    font-size: large;
+    color: #68677e;
+}
+
+.card_price {
+    width: 230px;
+    text-align: right;
+}
+
+.total {
+    width: 230px;
+    text-align: right;
+    font-weight: bold;
+}
+
+main button {
+    border:none;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.delete2 {
+    background:red;
+    
+
+}
+
+.delete2 i {
+    color:aliceblue;
+}
