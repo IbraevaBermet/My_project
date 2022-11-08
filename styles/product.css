@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: 600;
+    color:#e45300
+}
+.open_product img {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.open_product {
+    box-shadow:  0 0 10px #68677e;
+
+}

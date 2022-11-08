@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 main h1 {
     font-size: 25px;
     color: #37364e;
@@ -7,6 +13,7 @@ main h1 {
 
 .card_div {
     box-shadow:  0 0 10px #68677e;
+    padding-top: 20px;
 }
 
 .image_add_card img {
@@ -29,10 +36,6 @@ main h1 {
     align-items:center;
 }
 
-.add_and_delete i{
-    font-size: large;
-    color: #68677e;
-}
 
 .card_price {
     width: 230px;
@@ -45,12 +48,13 @@ main h1 {
     font-weight: bold;
 }
 
-main button {
+.card_products button {
     border:none;
     width: 32px;
     height: 32px;
     padding: 0;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .delete2 {
@@ -67,4 +71,41 @@ main button {
 .counter {
     width: 30px;
     height: 32px;
+}
+
+.free_delivery {
+    width: 1150px;
+    height: 50px;
+    background:rgb(193, 238, 193);
+    margin: 50px 25px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#19471f;
+    
+}
+
+.itog {
+    margin-left: 1000px;
+    line-height: 30px;
+}
+
+.zakaz button{
+    margin: 30px 0 40px 975px;
+    background:rgb(0, 179, 0);
+    color:aliceblue;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.zakaz button:hover {
+    background:rgb(39, 189, 39);
+
 }
