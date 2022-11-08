@@ -20,11 +20,11 @@ main h1 {
 }
 
 .model {
-    width: 120px;
+    width: 80px;
 }
 
 .add_and_delete {
-    width: 120px;
+    width: 150px;
     /* font-size: xx-large; */
     align-items:center;
 }
@@ -56,9 +56,15 @@ main button {
 .delete2 {
     background:red;
     
+    
 
 }
 
 .delete2 i {
     color:aliceblue;
+}
+
+.counter {
+    width: 30px;
+    height: 32px;
 }
