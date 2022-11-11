@@ -6,13 +6,45 @@ h2 {
     font-weight: 600;
     color:#e45300
 }
-.open_product img {
-    width: 400px;
-    height: 400px;
-    margin-left: 30px;
-}
 
 .open_product {
+    position: relative;
+    width: 100%;
+    height: 500px;
     box-shadow:  0 0 10px #68677e;
+}
+.prod_img img {
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+
+.prod_img2 {
+    margin-left: 70px;
+}
+
+.prod_img2 img {
+    width: 80px;
+    height: 80px;
+    border:1px solid #e45300;
+    
+}
+
+.opisanie {
+    position: absolute;
+    line-height: 50px;
+    top: 70px;
+    right: 325px;
 
 }
+
+.box_in {
+    background:green;
+}
+
+.font_size {
+    font-size: 25px;
+
+}
+

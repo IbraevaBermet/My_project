@@ -23,11 +23,12 @@ window.addEventListener('click', function (event) {
             count.innerText = --count.innerText;
     
         }
-    
-
-        //count.innerText = --count.innerText;
 
     }
+
+
+
+
 
     if (event.target.classList.contains('plus')) {
         console.log('plus');
@@ -46,22 +47,7 @@ window.addEventListener('click', function (event) {
     }
 
 
-
-
-
-
 });
 
 
 
-// function delete_func () {
-    
-
-//     del_product.addEventListener('click',del_func);
-
-//     function del_func() {
-//         this.parentNode.parentNode.remove();
-//     }
-// };
-
-// delete_func();
